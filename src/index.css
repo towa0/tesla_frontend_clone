@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Gotham SSM";
+  src: url("/fonts/GothamSSM-Book_Web.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gotham SSM";
+  src: url("/fonts/GothamSSM-Meduim_Web.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+}
+
+body {
+  @apply font-sans;
+}
